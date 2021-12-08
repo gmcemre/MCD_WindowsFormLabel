@@ -76,12 +76,13 @@ namespace MCD_WindowsFormLabel
             // btnGirisYap
             // 
             this.btnGirisYap.Font = new System.Drawing.Font("Tahoma", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnGirisYap.Location = new System.Drawing.Point(433, 188);
+            this.btnGirisYap.Location = new System.Drawing.Point(418, 186);
             this.btnGirisYap.Name = "btnGirisYap";
-            this.btnGirisYap.Size = new System.Drawing.Size(75, 23);
+            this.btnGirisYap.Size = new System.Drawing.Size(114, 23);
             this.btnGirisYap.TabIndex = 4;
             this.btnGirisYap.Text = "Giriş Yap";
             this.btnGirisYap.UseVisualStyleBackColor = true;
+            this.btnGirisYap.Click += new System.EventHandler(this.btnGirisYap_Click);
             // 
             // Form1
             // 
@@ -95,6 +96,7 @@ namespace MCD_WindowsFormLabel
             this.Controls.Add(this.lblKulaniciAd);
             this.Name = "Form1";
             this.Text = "Giriş Ekranı";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
