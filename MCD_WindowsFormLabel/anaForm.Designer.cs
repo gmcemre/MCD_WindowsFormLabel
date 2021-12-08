@@ -97,7 +97,7 @@ namespace MCD_WindowsFormLabel
             // 
             this.lblSelamla.AutoSize = true;
             this.lblSelamla.Font = new System.Drawing.Font("Tahoma", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblSelamla.Location = new System.Drawing.Point(349, 273);
+            this.lblSelamla.Location = new System.Drawing.Point(645, 300);
             this.lblSelamla.Name = "lblSelamla";
             this.lblSelamla.Size = new System.Drawing.Size(0, 21);
             this.lblSelamla.TabIndex = 5;
@@ -105,7 +105,7 @@ namespace MCD_WindowsFormLabel
             // txtIsim
             // 
             this.txtIsim.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.txtIsim.Location = new System.Drawing.Point(439, 103);
+            this.txtIsim.Location = new System.Drawing.Point(481, 103);
             this.txtIsim.Name = "txtIsim";
             this.txtIsim.Size = new System.Drawing.Size(173, 26);
             this.txtIsim.TabIndex = 6;
@@ -113,7 +113,7 @@ namespace MCD_WindowsFormLabel
             // txtSoyisim
             // 
             this.txtSoyisim.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.txtSoyisim.Location = new System.Drawing.Point(439, 138);
+            this.txtSoyisim.Location = new System.Drawing.Point(481, 138);
             this.txtSoyisim.Name = "txtSoyisim";
             this.txtSoyisim.Size = new System.Drawing.Size(173, 26);
             this.txtSoyisim.TabIndex = 7;
@@ -121,7 +121,7 @@ namespace MCD_WindowsFormLabel
             // txtKullaniciAdi
             // 
             this.txtKullaniciAdi.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.txtKullaniciAdi.Location = new System.Drawing.Point(439, 171);
+            this.txtKullaniciAdi.Location = new System.Drawing.Point(481, 171);
             this.txtKullaniciAdi.Name = "txtKullaniciAdi";
             this.txtKullaniciAdi.Size = new System.Drawing.Size(173, 26);
             this.txtKullaniciAdi.TabIndex = 8;
@@ -129,7 +129,7 @@ namespace MCD_WindowsFormLabel
             // txtSifre
             // 
             this.txtSifre.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.txtSifre.Location = new System.Drawing.Point(439, 207);
+            this.txtSifre.Location = new System.Drawing.Point(481, 207);
             this.txtSifre.Name = "txtSifre";
             this.txtSifre.Size = new System.Drawing.Size(173, 26);
             this.txtSifre.TabIndex = 9;
@@ -137,7 +137,7 @@ namespace MCD_WindowsFormLabel
             // txtAciklama
             // 
             this.txtAciklama.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.txtAciklama.Location = new System.Drawing.Point(439, 241);
+            this.txtAciklama.Location = new System.Drawing.Point(481, 241);
             this.txtAciklama.Name = "txtAciklama";
             this.txtAciklama.Size = new System.Drawing.Size(173, 26);
             this.txtAciklama.TabIndex = 10;
@@ -145,9 +145,9 @@ namespace MCD_WindowsFormLabel
             // btnGuncelle
             // 
             this.btnGuncelle.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnGuncelle.Location = new System.Drawing.Point(475, 296);
+            this.btnGuncelle.Location = new System.Drawing.Point(481, 296);
             this.btnGuncelle.Name = "btnGuncelle";
-            this.btnGuncelle.Size = new System.Drawing.Size(75, 31);
+            this.btnGuncelle.Size = new System.Drawing.Size(173, 31);
             this.btnGuncelle.TabIndex = 11;
             this.btnGuncelle.Text = "Güncelle";
             this.btnGuncelle.UseVisualStyleBackColor = true;

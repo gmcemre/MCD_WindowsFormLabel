@@ -63,6 +63,8 @@ namespace MCD_WindowsFormLabel
             this.txtKullaniciAdi.Name = "txtKullaniciAdi";
             this.txtKullaniciAdi.Size = new System.Drawing.Size(138, 26);
             this.txtKullaniciAdi.TabIndex = 2;
+            this.txtKullaniciAdi.Enter += new System.EventHandler(this.txtKullaniciAdi_Enter);
+            this.txtKullaniciAdi.Leave += new System.EventHandler(this.txtKullaniciAdi_Leave);
             // 
             // txtSifre
             // 

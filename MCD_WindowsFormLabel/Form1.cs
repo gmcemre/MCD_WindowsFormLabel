@@ -33,7 +33,27 @@ namespace MCD_WindowsFormLabel
             if (bulunanKullanici != null)
             {
                 anaForm _anform = new anaForm(bulunanKullanici);
+                _anform.Show();
             }
+            else
+            {
+                //windows form içerisinde nasıl kullanıcıya bir popup gösteririz bunu çok ufak bir şekilde inceleyelim.
+                //Ayrı bir konu olarak ele alacağız.
+
+                MessageBox.Show("Hatalı kullanıcı bilgileri", "Hata", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void txtKullaniciAdi_Enter(object sender, EventArgs e)
+        {
+            TextBox T1 = (TextBox)sender;
+            T1.BackColor = Color.Yellow;
+        }
+
+        private void txtKullaniciAdi_Leave(object sender, EventArgs e)
+        {
+            TextBox T1 = (TextBox)sender;
+            T1.BackColor = Color.White;
         }
     }
 }
